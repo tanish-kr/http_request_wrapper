@@ -1,4 +1,5 @@
 # HttpRequestWrapper
+[![Coverage Status](https://coveralls.io/repos/tatsu07/http_request_wrapper/badge.svg)](https://coveralls.io/r/tatsu07/http_request_wrapper)  
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/http_request_wrapper`. To experiment with that code, run `bin/console` for an interactive prompt.
 
