@@ -5,7 +5,9 @@ describe HttpRequestWrapper do
     expect(HttpRequestWrapper::VERSION).not_to be nil
   end
 
-  # it 'does something useful' do
-  #   expect(false).to eq(true)
-  # end
+  it 'http get' do
+    html = HttpRequestWrapper::Request.get('www.google.com','/')
+    expect(html).not_to be nil
+  end
+
 end
