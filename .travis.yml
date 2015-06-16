@@ -4,4 +4,10 @@ rvm:
   - 2.0.0
   - 2.1.5
   - 2.2.1
-before_install: bundle exec rspec
+before_install: |
+  gem install bundler
+  bundle install
+script: bundle exec rspec
+branches:
+  only:
+    - master
