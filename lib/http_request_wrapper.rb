@@ -1,5 +1,5 @@
+# encoding : utf-8
+require "net/https"
+require "uri"
 require "http_request_wrapper/version"
-
-module HttpRequestWrapper
-  # Your code goes here...
-end
+require "http_request_wrapper/request"
